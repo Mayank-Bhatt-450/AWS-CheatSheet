@@ -23,7 +23,7 @@ Here is a cheat sheet based on the IAM (Identity and Access Management) section 
 - **Example**: Create an "Admin" group with **AdministratorAccess** policy to manage permissions for all admins at once.
 
 #### **IAM Roles**
-- **Roles**: Used to delegate permissions to AWS services.
+- **Roles**: Used to delegate permissions to AWS services. this is just like user but for aws services
 - **Use case**: Assign roles to services like EC2, Lambda, etc., to manage their permissions without sharing credentials.
 - **Cross-Account Access**: Roles can also be assumed by entities in different AWS accounts.
 
